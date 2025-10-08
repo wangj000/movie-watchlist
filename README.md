@@ -12,6 +12,7 @@
 </ul>
 <img width="753" height="869" alt="image" src="https://github.com/user-attachments/assets/9bad9dfb-0b91-462c-acff-776380bdaa3e" />
 
+
 <caption>Watchlist page</caption>
 <ul>
   <li>The movies that were added are displayed on the watchlist page.</li>
