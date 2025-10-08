@@ -6,4 +6,6 @@
 
 <h2>Showcase</h2>
 
+<caption>Searching for a movie</caption>
+<p>A movie can be added via the 'watchlist' button.</p>
 <img width="753" height="869" alt="image" src="https://github.com/user-attachments/assets/9bad9dfb-0b91-462c-acff-776380bdaa3e" />
