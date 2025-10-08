@@ -1,6 +1,8 @@
 <h1>Overview</h1>
 
-<p>Ran out of API calls, so the netlify page no longer functions correctly.</p>
+<p>A pseudo watchlist application to search for your favorite movies via the OMDb API and add them  to a watchlist for later.</p>
+
+<p>P.S. Ran out of API calls, so the netlify page no longer functions correctly.</p>
 
 <h2>Showcase</h2>
 
