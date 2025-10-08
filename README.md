@@ -18,5 +18,5 @@
   <li>The movies that were added are displayed on the watchlist page.</li>
   <li>Which can be removed via the 'Remove' button</li>
 </ul>
-<img width="854" height="979" alt="image" src="https://github.com/user-attachments/assets/68112bf3-59d0-42fb-9509-a41c79906965" />
+<img width="754" height="879" alt="image" src="https://github.com/user-attachments/assets/68112bf3-59d0-42fb-9509-a41c79906965" />
 
