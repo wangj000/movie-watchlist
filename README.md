@@ -12,6 +12,7 @@
 </ul>
 <img width="753" height="869" alt="image" src="https://github.com/user-attachments/assets/9bad9dfb-0b91-462c-acff-776380bdaa3e" />
 
+<br />
 
 <caption>Watchlist page</caption>
 <ul>
