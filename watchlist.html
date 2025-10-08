@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <!-- Inter Font Import -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <div class="hero-inner-container">
+        <div class="watchlist-header">
+          <h1>My Watchlist</h1>
+          <a class="searchForMoviesLink" href="index.html">Search for movies</a>
+        </div>
+        <div id="start-exploring-watchlist" class="start-exploring-watchlist">
+          <p class="start-exploring">
+            Your watchlist is looking a little empty...
+          </p>
+          <a href="index.html" id="addMoviesBtn" class="addMoviesBtn">
+            <img
+              class="redirectBackToAddMovies"
+              src="/movie-watchlist/images/addWatchListIcon.png"
+            />
+            Let's add some movies!
+          </a>
+        </div>
+        <div id="watchlist-container" class="watchlist-container"></div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="watchlist.js"></script>
+  </body>
+</html>

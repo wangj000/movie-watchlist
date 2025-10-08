@@ -1,0 +1,298 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Styles */
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./images/header-img.png);
+  width: 100%;
+  height: 325px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-header {
+  padding: 50px 0 0 0;
+  font-family: "Inter", sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10rem;
+  align-items: center;
+}
+
+.hero-header > h1 {
+  font-size: 4.5rem;
+}
+
+.hero-header > a {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.myWatchListLink {
+  text-decoration: none;
+  background: none;
+  color: white;
+  font-family: "Inter", sans-serif;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.myWatchListLink:visited,
+.myWatchListLink:hover {
+  color: white;
+}
+
+/* SEARCH BAR STYLES */
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  margin: 60px 0 0 0;
+  border: 2px solid #d1d5db;
+  border-radius: 5px;
+  background: white;
+}
+
+.search-button {
+  width: 30%;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  border-left: 2px solid #d1d5db;
+  font-size: 20px;
+  color: #374151;
+}
+
+.search-bar {
+  height: 50px;
+  width: 80%;
+  border: none;
+  background: none;
+}
+
+.search-bar:focus {
+  outline: none;
+}
+
+.search-bar::placeholder {
+  font-size: 20px;
+  color: #6b7280;
+}
+
+.search-bar[type="text"] {
+  font-size: 20px;
+  color: black;
+}
+
+.mag-glass {
+  width: 20px;
+  height: 100%;
+  padding: 0;
+  margin: 0 10px;
+  color: white;
+}
+
+/* NO MOVIES STYLING */
+
+.start-exploring-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 250px 0 0 0;
+  padding-bottom: 300px;
+}
+
+.start-exploring {
+  color: #dfdddd;
+  font-family: "inter", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 10px 0 0 0;
+}
+
+/* MOVIE ELEMENT STYLING */
+
+.movie {
+  display: flex;
+  flex-direction: row;
+}
+
+.movie-container {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.movie-element {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding: 30px 0;
+  border-bottom: 2px solid #e5e7eb;
+  /* margin: 0 30px; */
+}
+
+.movie-element h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.movie-element-inner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 40px;
+  padding-right: 0px;
+}
+
+.movie-image {
+  width: 200px;
+  height: 100%;
+}
+
+.movie-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.movie-header h1 {
+  width: 400px;
+}
+
+.movie-header p {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.star-img {
+  width: 100%;
+  height: 200px;
+}
+
+.movie-details {
+  display: flex;
+  gap: 40px;
+  color: #111827;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+.movie-watchlist-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  background: none;
+  font-size: 16px;
+  color: #111827;
+}
+
+.watchlist-btn-img {
+  width: 100%;
+  height: 20px;
+}
+
+.movie-desc p {
+  width: 30rem;
+  font-size: 1.3rem;
+  color: #6b7280;
+  font-family: "Inter", sans-serif;
+}
+
+/* WATCHLIST PLACEHOLDER STYLES */
+
+.addMoviesBtn {
+  width: 100%;
+  height: 30px;
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.start-exploring-watchlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 400px 0 0 0;
+  padding-bottom: 300px;
+}
+
+.searchForMoviesLink,
+.addMoviesBtn {
+  text-decoration: none;
+}
+
+.searchForMoviesLink:visited,
+.searchForMoviesLink:hover {
+  color: white;
+}
+
+.addMoviesBtn:visited,
+.addMoviesbtn:hover {
+  color: black;
+}
+
+.watchlist-container {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.watchlist-header {
+  padding: 50px 0 0 0;
+  margin-bottom: 125px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10rem;
+  align-items: center;
+}
+
+.watchlist-header > h1 {
+  font-size: 4.5rem;
+}
+
+.watchlist-header > a {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* REMOVE BTN STYLES */
+
+.movie-remove-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  background: none;
+  font-size: 16px;
+  color: #111827;
+}
