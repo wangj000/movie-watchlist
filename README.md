@@ -38,7 +38,7 @@
   <li>If you have yet to add a movie to the watchlist, you will be prompted to add your first movie.</li>
   <li>Interacting with 'Let's add some movies' or 'Search for Movies' will bring you back to the search page.</li>
 </ul>
-<img width="840" height="973" alt="image" src="https://github.com/user-attachments/assets/dc8796f9-99a5-4d40-bcb8-b04e9cceaca2" />
+<img width="740" height="873" alt="image" src="https://github.com/user-attachments/assets/dc8796f9-99a5-4d40-bcb8-b04e9cceaca2" />
 
 
 
