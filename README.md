@@ -4,4 +4,4 @@
 
 <h2>Showcase</h2>
 
-<img width="852" height="969" alt="image" src="https://github.com/user-attachments/assets/9bad9dfb-0b91-462c-acff-776380bdaa3e" />
+<img width="753" height="869" alt="image" src="https://github.com/user-attachments/assets/9bad9dfb-0b91-462c-acff-776380bdaa3e" />
