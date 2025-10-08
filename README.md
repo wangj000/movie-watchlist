@@ -9,6 +9,7 @@
 <caption>Searching for a movie</caption>
 <ul>
   <li>A movie can be added via the 'Watchlist' button.</li>
+  <li>Which get sent to local storage to be rendered on the watchlist page.</li>
 </ul>
 <img width="753" height="869" alt="image" src="https://github.com/user-attachments/assets/9bad9dfb-0b91-462c-acff-776380bdaa3e" />
 
